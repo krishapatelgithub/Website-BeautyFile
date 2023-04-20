@@ -1,0 +1,6 @@
+<!ELEMENT details (name,specialist,work_location,email,contact_no)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT specialist (#PCDATA)>
+<!ELEMENT work_location (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT contact_no (#PCDATA)>

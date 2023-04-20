@@ -1,0 +1,287 @@
+*{
+	background-color:black;
+	color:white;
+}
+a{
+	text-decoration: none;
+}
+.topnav a{
+	padding:15px;
+}
+.topnav{
+	text-decoration: none;
+	font-family:Candara;
+	font-size:30px;
+	background-color:black;
+	overflow:hidden;
+}
+.topnav a:hover{ 
+	text-decoration: none;
+    background-color: white;
+    color: black;
+}
+h1{
+	font-family:Candara;
+	font-size:75px;
+	text-align:center;
+}
+.anew{
+	text-decoration: none;
+	font-family:Calibri;
+	font-size:25px;
+	background-color:black;
+	overflow:hidden;
+}
+.topnav-right{
+	float:right;
+}
+.mark{
+	background-color:black;
+	color:yellow;
+}
+.lab{
+	text-decoration: none;
+	font-family:Candara;
+	font-size:30px;
+	background-color:black;
+	overflow:hidden;
+	padding:15px;
+}
+p{
+	font-family:Nirmala UI;
+	font-size:20px;
+	text-align:center;
+}
+.lab2{
+	font-family:Candara;
+	font-size:17px;
+	background-color:black;
+	overflow:hidden;
+	text-align:center;
+	padding:50px;
+}
+.container {  
+width: 1330px;  
+height: 60px;  
+border: 5px solid black;  
+display: grid;  
+}  
+.button{
+	font-family:Candara;
+	background-color:blue;
+	border-radius:8px;
+	border:none;
+	color:white;
+	padding:10px 32px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	position:relative;
+	margin:auto;
+}
+.op{
+	font-family:calibri;
+	font-size:19px;
+	text-align:center;
+	color:gray;
+	padding-top:30px;
+}
+.hr
+{
+	background-color:black;
+	border:1px solid gray;
+}
+/*table { border-collapse: collapse; }
+tr {
+	border-right: solid 1px white; 
+	border-left: solid 1px white;
+}
+td {
+	border: none; 
+}*/
+.tab{
+	border:5px solid black;
+}
+tr {
+	border:5px solid black;
+}
+td {
+	border:5px solid black;
+}
+/*table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr {
+    border-bottom: 1px solid #ccc;
+}
+
+th {
+    text-align: left;    
+}*/
+img{
+	border:1px solid gray;
+	height:260px;
+	width:410px;
+	padding:7px;
+}
+.footer{
+	text-align:left;
+	font-family:calibri;
+	font-size:17px;
+	background-color: #2f4f4f;
+	color: white;
+	padding:10px;
+}
+.footer p{
+	background-color:#2f4f4f;
+	color=white;
+}
+.footer-head{
+	text-align:left;
+	color:white;
+	font-size:23px;
+}
+.footer-tab{
+	border:1px solid #2f4f4f;
+	background-color:#2f4f4f;
+	height:350px;
+	width:1320px;
+}
+.footer-td{
+	border:5px solid #2f4f4f;
+	background-color:#2f4f4f;
+}
+.footer-tr{
+	border:5px solid #2f4f4f;
+	background-color:#2f4f4f;
+}
+.setback{
+	background-image:url("../Images/silhouette-3113497_960_720.jpg");
+	background-repeat:no-repeat;
+}
+.vertical {
+    border-left: 6px solid red;
+    height: 550px;
+    position:absolute;
+    left: 50%;
+}
+.tag2{
+	font-family:Candara;
+	font-size:50px;
+	text-align:center;
+	float:left;
+	padding-left:40px;
+}
+.p2{
+	font-family:Nirmala UI;
+	font-size:20px;
+	text-align:center;
+	float:left;
+}
+.imgs{
+	border:1px solid black;
+	width:600px;
+	height:570px;
+	padding-left:30px;
+}
+.butt2{
+	padding-left:210px;
+}
+.butt1{
+	padding-left:270px;
+}
+.shoot{
+	border:1px solid black;
+	width:500px;
+	height:570px;
+	padding-left:80px;
+}
+fieldset{
+	border:2px solid gray;	
+	border-radius:20px;
+	height:475px;
+}
+legend{
+	font-family:Calibri;
+	font-size:20px;
+	color:white;
+}
+.tab3{
+	font-size:15px;
+	font-family:Calibri;
+	padding:12px;
+}
+input{
+	width:280px;
+	height:28px;
+	border-radius:4px;
+	background-color:black;
+	color:white;
+	font-family:calibri;
+	font-size:15px;
+}
+.sub{
+	font-family:Candara;
+	background-color:blue;
+	border-radius:8px;
+	border:none;
+	color:white;
+	padding:10px 10px;
+	text-align:center;
+	text-decoration:none;
+	display:inline-block;
+	font-size:20px;
+	position:relative;
+	margin:auto;
+	height:50px;
+	width:120px;
+}
+.tag3{
+	font-family:Candara;
+	font-size:30px;
+	text-align:center;
+	float:left;
+	padding-left:200px;
+}
+textarea{
+	width:280px;
+	height:70px;
+	border-radius:8px;
+	background-color:black;
+	color:white;
+	font-family:calibri;
+	font-size:15px;
+}
+.reg-tab{
+	border:1px solid black;
+	background-color:black;
+	height:350px;
+	width:1320px;
+}
+.tag4{
+	font-family:Candara;
+	font-size:50px;
+	text-align:center;
+}
+.tab4{
+	color:gray;
+	font-size:20px;
+	font-family:Candara;
+}
+.con{
+	text-align:center;
+	margin:auto;
+	background-color:black;
+	border:1px solid gray;
+	width:650px;
+	height:410px;
+	border-radius:20px;
+}
+.tab5{
+	color:gray;
+	font-size:25px;
+	font-family:Candara;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+<meta content="utf-8" http-equiv="encoding">
+<head>
+	<title>Employee Details  - BeautyFile</title>
+	<link rel="stylesheet" href="Style.css">
+</head>
+<body>
+	<div class="topnav">
+	<label class="lab">Beauty<mark class ="mark">File</mark>&nbsp;&nbsp;&nbsp;&nbsp; | </label>
+		<!--<a rel="noopener" target="_blank" href="Index.html" target="_blank">Beauty<label class="mark">File</label></a>-->
+		<a class="anew" target="_blank" href="Index.html">Home</a>
+		<a class="anew" target="_blank" href="Register.html">Register</a>
+		<a class="anew" target="_blank" href="Info.html">Info</a>
+		<div class="topnav-right">
+			<a class="anew" target="_blank" href="About.html">About</a>
+			<a class="anew" target="_blank" href="Contact.html">Contact</a>
+		</div>
+	</div>
+	<hr class="hr"></hr>
+	<script type="text/javaScript">
+		xmlhttp=new XMLHttpRequest();
+		xmlhttp.open("GET","Employee.xml",false);
+		xmlhttp.send();
+		xmlDoc=xmlhttp.responseXML;
+		document.write("<table border='1'>");
+		var x=xmlDoc.getElementsByTagName("details");
+		document.write("<tr><th class='thb'");
+		document.write("name</th><th class='thb'>specialist</th><th class='thb'>work_location</th><th class='thb'>email</th><th class='thb'>contact_no</th></tr>");
+		for(i=0;i<x.length;i++)
+		{
+			document.write("<tr><td>");
+			document.write(x[i].getElementsByTagName("name")[0].childNodes[0].nodeValue);
+			document.write("</td><th class='bg'>");
+			document.write(x[i].getElementsByTagName("specialist")[0].childNodes[0].nodeValue);
+			document.write("</th><td>");
+			document.write(x[i].getElementsByTagName("work_location")[0].childNodes[0].nodeValue); 
+			document.write("</td><td>");
+			document.write(x[i].getElementsByTagName("email")[0].childNodes[0].nodeValue);
+			document.write("</td><td>");
+			document.write(x[i].getElementsByTagName("contact_no")[0].childNodes[0].nodValue);
+			document.write("</td></tr>");
+		}
+		document.write("</table>");
+	</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Employee SYSTEM "employee.dtd">
+<Employee>
+	<details>
+		<name>Arun Mishra</name>
+		<specialist>Wedding Photographer</specialist>
+		<work_location>Vadodara</work_location>
+		<email>arun123@gmail.com</email>
+		<contact_no>7856498242</contact_no>
+	</details>
+	<details>
+		<name>Roshni Shah</name>
+		<specialist>Fashion Photographer</specialist>
+		<work_location>Delhi</work_location>
+		<email>roshni123@gmail.com</email>
+		<contact_no>7856283479</contact_no>
+	</details>
+	<details>
+		<name>Rajesh Dave</name>
+		<specialist>WildLife Photographer</specialist>
+		<work_location>Pune</work_location>
+		<email>rajesh123@gmail.com</email>
+		<contact_no>237538242</contact_no>
+	</details>
+	<details>
+		<name>Anjali Rathod</name>
+		<specialist>Landscape Photographer</specialist>
+		<work_location>Ahamdabad</work_location>
+		<email>anjali123@gmail.com</email>
+		<contact_no>9739398242</contact_no>
+	</details>
+	<details>
+		<name>Shanaya Rajput</name>
+		<specialist>Birthday Photographer</specialist>
+		<work_location>Balnglore</work_location>
+		<email>shanaya123@gmail.com</email>
+		<contact_no>8163188242</contact_no>
+	</details>
+	<details>
+		<name>Vishnu Patel</name>
+		<specialist>Nature Photographer</specialist>
+		<work_location>Ahamdabad</work_location>
+		<email>vishnu123@gmail.com</email>
+		<contact_no>9739398242</contact_no>
+	</details>
+</Employee>
